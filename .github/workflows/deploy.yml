@@ -35,7 +35,10 @@ jobs:
 
       - name: Build
         run: npm run build
-
+      - name: Check build output
+        run: |
+          echo "=== OUT ==="
+          find out -type f | sort
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -58,5 +61,6 @@ jobs:
 
     steps:
       - name: Deploy
+
         id: deployment
         uses: actions/deploy-pages@v4
