@@ -58,7 +58,8 @@ export default function RootLayout({
             <FontAwesomeIcon className=" text-white text-xl w-6 h-6 " icon={faPhone} />
       </Link>
 </button>
-        {children}</body>
+        {children}
+        </body>
         <Footer/>
     </html>
   );
