@@ -5,7 +5,7 @@
   --foreground: #171717;
   --base:#080E18;
   --primary:#C39F50;
-    --font-vazirmatn: "Vazirmatn", sans-serif;
+    --font-vazirmatn: "Vazirmatn";
 }
 
 @theme inline {
@@ -32,4 +32,10 @@ body {
   /* font-family: Arial, Helvetica, sans-serif; */
     font-family: var(--font-vazirmatn);
 
+}
+.linear-base{
+  background: linear-gradient(90deg, #FDF9F0 40%, #FFFFFF 100%);
+}
+.linear-right{
+  background: linear-gradient(90deg, #fff 0%, #FDF9F0 50%);
 }

@@ -14,8 +14,8 @@ const Headers = () => {
 // const pathname = "";
   const isActive = (path:any) => pathname === path;
   return (
-    <header className="fixed top-6 right-0 w-full z-50 " dir="rtl">
-      <div className="mx-auto min-2xl:max-w-9/12  xl:max-w-10/12 w-full bg-base rounded-3xl drop-shadow-xl h-20 px-4 sm:px-6 lg:px-8 flex items-center justify-between backdrop-blur-xs">
+    <header className="fixed  top-6 max-md:top-3 right-0 w-full z-50 " dir="rtl">
+      <div className="mx-auto min-2xl:max-w-9/12  xl:max-w-10/12 w-11/12 bg-base border-2 rounded-3xl drop-shadow-xl h-20 px-4 sm:px-6 lg:px-8 flex items-center justify-between backdrop-blur-xs">
 
         {/* Logo type */}
         <div className="flex">
@@ -26,7 +26,7 @@ const Headers = () => {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:block">
+        <nav className="hidden lg:block">
           <ul className="flex gap-20 xl:text-xl">
 
             <li>
@@ -40,8 +40,8 @@ const Headers = () => {
 
             <li>
               <Link
-                href="/aboutUs/"
-                className={`${isActive("/aboutUs/") ? "text-primary font-bold" : "text-gray-100"} hover:text-primary`}
+                href="/#about"
+                className={`${isActive("/#about") ? "text-primary font-bold" : "text-gray-100"} hover:text-primary`}
               >
                 
                 
@@ -51,30 +51,37 @@ const Headers = () => {
 
             <li>
               <Link
-                href="/Products/"
-                className={`${isActive("/Products/") ? "text-primary font-bold" : "text-gray-100"} hover:text-primary`}
+                href="/Articles/"
+                className={`${isActive("/Articles") ? "text-primary font-bold" : "text-gray-100"} hover:text-primary`}
               >
                 مقالات
               </Link>
             </li>
-
-            
             <li>
+              <Link
+                href=""
+                className={`${isActive("/Articles/") ? "text-primary font-bold" : "text-gray-100"} hover:text-primary`}
+              >
+                قوانین
+              </Link>
+            </li>
+            
+            {/* <li>
               <Link
                 href="/contactus/"
                 className={`${isActive("/contactus/") ? "text-primary font-bold" : "text-gray-100"} hover:text-primary`}
               >
                 دوره ها
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link
                 href="/contactus/"
                 className={`${isActive("/contactus/") ? "text-primary font-bold" : "text-gray-100"} hover:text-primary`}
               >
                 تماس با ما
               </Link>
-            </li>
+            </li> */}
             
           </ul>
         </nav>
@@ -84,11 +91,11 @@ const Headers = () => {
 
           {/* CTA Button */}
           <Link
-            href="/contactus"
-            className={`hidden md:block rounded-xl px-8 py-3 transition
-              ${isActive("/contactus")
+            href="/#contact"
+            className={`hidden lg:block rounded-xl px-8 py-3 transition
+              ${isActive("/#contact")
                 ? "bg-white text-primary border border-primary"
-                : "bg-primary text-white hover:bg-white hover:text-primary border border-transparent"
+                : "bg-primary text-white hover:bg-base hover:text-primary border border-transparent"
               }`}
           >
             دریافت مشاوره
@@ -97,7 +104,7 @@ const Headers = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden rounded-lg p-2 bg-gray-100 border-gray-400 border-1 "
+            className="lg:hidden rounded-lg p-2 bg-primary  border-1 "
           >
             {isOpen ? (
               <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
