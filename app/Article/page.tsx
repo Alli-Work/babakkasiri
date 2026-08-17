@@ -6,7 +6,7 @@ const Article = () => {
     
     <main>
       
-    <img src="/img_card.png" alt="" className="absolute w-full max-sm:h-8/12 max-lg:h-9/12 max-md:h-8/12  max-2xl:h-10/12 h-9/12 -z-10  xl:-mt-12 " />
+    <img src="/babakkasiri/img_card.png" alt="" className="absolute w-full max-sm:h-8/12 max-lg:h-9/12 max-md:h-8/12  max-2xl:h-10/12 h-9/12 -z-10  xl:-mt-12 " />
       {/* <img src="/hero_md.png" alt="" className="absolute min-xl:hidden max-sm:hidden w-full  max-sm:h-8/12 max-lg:h-9/12 max-md:h-8/12  max-2xl:h-10/12 h-9/12 -z-10  xl:-mt-12 " />
       <img src="/hero_sm.png" alt="" className="absolute min-xl:hidden w-full  max-sm:h-8/12 max-lg:h-9/12 max-md:h-8/12  max-2xl:h-10/12 h-9/12 -z-10  xl:-mt-12 " /> */}
       

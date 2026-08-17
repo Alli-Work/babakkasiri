@@ -40,7 +40,7 @@ const CardRule = () => {
 
   {/* تصویر */}
   <img
-    src="/ruleCard.png"
+    src="/babakkasiri/ruleCard.png"
     alt="قانون"
     className="absolute inset-0 h-full w-full object-cover"
   />

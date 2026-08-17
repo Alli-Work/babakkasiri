@@ -28,7 +28,7 @@ const About = () => {
                 <img  className="min-md:hidden -mt-2 w-5/6 mx-auto  " src="/hero-about.png" alt="عکس کنار توضیح درباره ما"/> */}
                 <div className=" max-xl:flex max-xl:justify-center">
                         <Image
-                    src="/hero-about.png"
+                    src="/babakkasiri/hero-about.png"
                     alt="Hero"
                     width={10000}
                     height={10000}

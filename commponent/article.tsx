@@ -7,7 +7,7 @@ import Link from "next/link";
 const Card = () => {
     return (
     <div dir="rtl" className=" mb-4  flex flex-col justify-center mx-auto w-[80%] sm:w-[45%] lg:w-[30%]   rounded-xl overflow-hidden shadow-lg">
-  <img  className="w-full" src="/img_card.png" alt="تصویر کارد"/>
+  <img  className="w-full" src="/babakkasiri/img_card.png" alt="تصویر کارد"/>
   <div className="px-6 py-4">
     <div className="flex justify-between">
       

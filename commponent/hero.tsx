@@ -17,7 +17,7 @@ const Hero = () => {
     >
       {/* Background */}
       <Image
-        src="/hero11.png"
+        src="/babakkasiri/hero11.png"
         alt="Hero"
         width={10000}
         height={10000}
@@ -26,7 +26,7 @@ const Hero = () => {
         style={{minHeight:"32rem"}}
       />
       <Image
-        src="/hero222.png"
+        src="/babakkasiri/hero222.png"
         alt="Hero"
         width={10000}
         height={10000}
@@ -103,7 +103,7 @@ const Hero = () => {
     
     {/* <section className="min-md:hidden" style={{marginBottom:"35rem"}}>
         <Image
-            src="/hero-md.png"
+            src/babakkasiri="/hero-md.png"
             alt="Hero"
             width={10000}
             height={10000}
