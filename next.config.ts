@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  basePath: "/bakkasiri",
+  basePath: "/babakkasiri",
     images: {
     unoptimized: true,
   },
