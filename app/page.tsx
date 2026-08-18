@@ -14,8 +14,8 @@ import ContacMe from "@/commponent/contactMe";
 import Carousel from "@/commponent/message";
 
 export const metadata: Metadata = {
-  title: "کیمیا افروز سپاهان | صفحه اصلی",
-  description: "تولید کننده DCP و MCP خوراک دام و طیور",
+  title: "بابک کثیری | صفحه اصلی",
+  description: "",
 };
 
 
